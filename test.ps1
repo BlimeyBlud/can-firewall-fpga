@@ -13,6 +13,12 @@ iverilog -g2012 -I tb -o tb\fw.vvp tb\tb_firewall.v rtl\can_firewall.v
 $f = vvp tb\fw.vvp | Out-String
 Write-Host $f
 
+Write-Host "== TDoA model =="
+python sim\tdoa.py
+
+Write-Host "`n== Autoencoder =="
+python ml\autoencoder.py
+
 if (($p -match "PASS") -and ($f -match "PASS")) {
     Write-Host "ALL TESTS PASSED" -ForegroundColor Green
 } else {
