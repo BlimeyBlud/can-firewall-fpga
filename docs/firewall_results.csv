@@ -1,0 +1,5 @@
+type,frames,blocked,blocked_pct
+normal,13201,1828,13.85
+spoof,2001,1991,99.50
+dos,25001,25001,100.00
+fuzz,9922,9899,99.77
