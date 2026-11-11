@@ -1,0 +1,11 @@
+type,frames,tdoa_only_pct,rate_only_pct,combined_pct
+normal,13201,0.31,13.85,10.20
+spoof,2001,100.00,99.50,100.00
+dos,25001,100.00,100.00,100.00
+fuzz,9922,100.00,99.77,100.00
+
+sigma_ns,normal_fp_pct,spoof_detect_pct
+0,0.00,100.00
+2,0.31,100.00
+4,13.68,100.00
+6,32.10,100.00

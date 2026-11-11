@@ -1,0 +1,6 @@
+type,windows,detection_rate_pct,latency_windows,latency_ms
+spoof,101,99.0,1,100
+dos,58,100.0,0,0
+fuzz,101,100.0,0,0
+clean_fpr_pct,340,0.88,,
+overall_accuracy_pct,600,99.3,,
